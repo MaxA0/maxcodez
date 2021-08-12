@@ -27,4 +27,4 @@ async def on_message(message):
             await message.guild.unban(message.author)
             print("uh oh")
 
-client.run("NzczOTY0NTI0NjQ5OTcxNzEy.X6Q4og.b13wEqs3JkaIwIefg2N5Zdcyl98")
+client.run("")
