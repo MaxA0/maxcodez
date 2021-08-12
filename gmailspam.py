@@ -17,7 +17,7 @@ sleep(4)
 for i in range(20):
     driver.get("https://mail.google.com/mail/u/0/#inbox?compose=new")
     sleep(0.5)
-    driver.find_element_by_class_name("vO").send_keys("maxabela@gmail.com")
+    driver.find_element_by_class_name("vO").send_keys("")
     driver.find_element_by_class_name("aoT").send_keys("[SUB TO MAX CODEZ OR SUFFER]")
     sleep(0.5)
     driver.find_element_by_css_selector("div[aria-label='Message Body']").send_keys("insert meme response here!")
